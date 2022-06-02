@@ -1,0 +1,20 @@
+npm i morgan
+
+const morgan=request("morgan")
+
+app.use(morgan("index"))
+
+
+res.json({
+                status:[{wrong:"Kayıt İşlemi Başarısız"},{title:"deneme"}]
+            })
+
+
+
+Router.get("/",(req,res)=>{
+    res.render('index',null,{layout:'dosya_adı})
+    reply.view()
+    //res.send("front home")
+    console.log("anasayfa")
+})
+
